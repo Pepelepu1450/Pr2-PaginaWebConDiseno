@@ -1,0 +1,26 @@
+nav{
+    text-align: center;
+    background-color: gray;
+}
+nav li{
+    display: block;
+    
+}
+.nav-hover .option-conainer {
+    display: grid;
+}
+.nav-hover .option{
+    width: 100%;
+    
+}
+.nav-hover .option ul{
+    display: none;
+    padding: 0;
+    background-color: gray;
+    position: relative;
+    
+}
+.nav-hover .option:hover ul{
+    display: block;
+    
+}
